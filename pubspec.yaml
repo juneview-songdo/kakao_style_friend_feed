@@ -1,7 +1,7 @@
 name: kakao_style_friend_feed
-description: "Description here"
+description: "kakao style friend feed by june"
 #publish_to: 'none'
-#repository: https://github.com/melodysdreamj/juneflow
+repository: https://github.com/juneview-songdo/kakao_style_friend_feed
 
 version: 1.0.0+1
 
