@@ -23,7 +23,7 @@ class ItemViewState extends State<ItemView> with StateMother {
       },
       leading: CircleAvatar(
         backgroundImage:
-            AssetImage("assets/view/kakao_style_friend_feed/winter.jpg"),
+            AssetImage("assets/view/kakao_style_friend_feed/iu.jpg"),
       ),
       title: Text("Kim Toss")
           .textStyle(Theme.of(context).textTheme.bodyLarge!)
