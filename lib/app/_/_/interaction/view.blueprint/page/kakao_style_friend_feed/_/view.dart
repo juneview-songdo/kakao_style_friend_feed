@@ -16,6 +16,7 @@ class NewViewState extends State<NewView> with StateMother {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
+      bottom: false,
       child: Scaffold(
         backgroundColor: Theme.of(context).colorScheme.background,
         appBar: AppBar(
@@ -36,22 +37,11 @@ class NewViewState extends State<NewView> with StateMother {
           ],
         ),
         body: ListView.builder(itemBuilder: (context, index) {
-          if (index == 4) {
-            return Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Divider(
-                  color: Colors.grey.withOpacity(0.5),
-                ),
-                Text("Contacts")
-                    .textStyle(Theme.of(context).textTheme.bodySmall!)
-                    .textColor(Colors.grey.withOpacity(1)),
-                Gap(10)
-              ],
-            ).padding(horizontal: 15, top: 10);
-          }
-
-          return ItemView();
+          return ItemView(
+            name: "Kim Toss",
+            imageUrl: "https://june-arch-asset.pages.dev/winter.webp",
+            stateMessage: "Toss Bank",
+          );
         }),
         floatingActionButton: FloatingActionButtonKit(),
       ),

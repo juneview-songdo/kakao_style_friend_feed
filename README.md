@@ -19,5 +19,5 @@
     ```
 
 ## Screenshots
-![](https://github.com/juneview-songdo/kakao_style_friend_feed/assets/21379657/2b0e8bd5-2b2d-44b7-9d6b-db0a151c55e4)
+![](https://github.com/juneview-songdo/kakao_style_friend_feed/assets/21379657/b246a049-586a-4b26-a302-593c6669057c)
 
